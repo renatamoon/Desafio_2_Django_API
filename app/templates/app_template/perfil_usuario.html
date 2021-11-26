@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    }
+	body{
+        padding-top: 150px;
+		background-color: #f55e0d;
+	}
+
+	input::placeholder {
+	  font-weight: bolder;
+	  color: #0a9396;
+	}	
+
+	.center-column{        
+        text-align: center;
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;		
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+</style>
+
+<div class="center-column">
+    <h1>PERFIL DO USUÁRIO</h1>
+    <hr>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <p><b>NOME DO USUÁRIO:</b> {{usuario.nome}}</p>        
+        <p><b>DATA_NASCIMENTO: </b>{{usuario.data_nascimento}}</p>
+        <p><b>LOGIN DO USUÁRIO: </b>{{usuario.login}}</p> 
+        <p><b>SENHA: </b>{{usuario.senha}}</p>   
+
+        <a href="{% url 'homepage' %}" class="btn btn-info">VOLTAR</a><br>
+    </form>
+</div>

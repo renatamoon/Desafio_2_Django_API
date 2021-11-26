@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    }
+
+	body{        
+		background-color: #f55e0d;
+	}
+
+	input{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	input::placeholder {
+	  color: #0a9396;
+	}
+
+	.center-column{
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+	.item-row{
+		background-color: #615e53;
+		margin: 10px;
+		padding: 20px;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 16px;
+		box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+	}
+
+    .user-list{
+        text-align: center;
+    }	
+
+</style>
+
+<div class="center-column">
+<h1><b>CADASTRO DE USUÁRIOS</b></h1>
+<hr>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <label><b>NOME:</b></label>{{form.nome}}<br>
+        <label><b>DATA DE NASCIMENTO:</b></label>{{form.data_nascimento}}<br>
+        <label><b>LOGIN:</b></label>{{form.login}}<br>
+        <label for="pass"><b>SENHA:</b></label>{{form.senha}}<br>
+        <input class="btn btn-primary" type="submit" value="Cadastrar">
+    </form>
+    <hr>
+    <div class="user-list">
+        <h4><b>LISTA DOS USUÁRIOS CADASTRADOS</b></h4>
+    </div>
+    <hr>
+    <div>
+    {% for usuario in usuarios %}
+        <div class="item-row">
+            <div>
+                <a class="btn btn-sm btn-primary" href="{% url 'perfil' usuario.id %}">Visualizar Perfil </a><br>
+                <br>
+                <p><b>NOME:</b> {{usuario.nome}}</p>        
+                <p><b>LOGIN:</b> {{usuario.login}}</p>                       
+            </div>
+        </div>
+    {% endfor %}
+    </div>       
+</div>
