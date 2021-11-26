@@ -36,7 +36,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![DBeaver](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 
@@ -90,22 +89,37 @@ DATABASES = {
 
 Visual da Página Inicial<br>
 <br>
--Formulário de cadastro de usuários;
 <br>
-![image](https://user-images.githubusercontent.com/87100340/143511328-98bfc273-842d-4ea6-8820-671d1690b0c0.png)
+-Formulário de cadastro de usuários:
 <br>
--Ao cadastrar o usuário já inclui na lista de usuários dentro na própria página inicial;<br>
-![image](https://user-images.githubusercontent.com/87100340/143511473-0eba91e3-b901-42ee-a39f-23b6f29288d0.png)
 <br>
--No card com o Nome e Login, há um botão de acesso para a página do Perfil de Usuário.
+![image](https://user-images.githubusercontent.com/87100340/143606786-0bec63c6-f9f9-4137-aec1-145157f89521.png)
+<br>
+<br>
+-Ao cadastrar o usuário já inclui na lista de usuários dentro na própria página inicial:
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/87100340/143606970-b4fc97de-180b-4b0c-a6d3-4b6c5a15f2f3.png)
+<br>
+<br>
+-No card com o Nome e Login, há um botão de acesso para a página do Perfil de Usuário:
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/87100340/143607002-ff445406-1fe7-4185-bb1c-364af997e433.png)
+<br>
+<br>
 -Há um botão para voltar à página de cadastro:
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/87100340/143607041-4cc4b055-471a-41e5-bb9c-331bb25f8714.png)
 <br>
 
 <hr>
   
 ## <a id="links_apps"> 🔴 LINKS ÚTEIS </a> 
 
-*USANDO DBEAVER PARA EXPORTAÇÃO DOS DADOS EM XML<br>
+*USANDO MYSQL WORKBENCH PARA EXPORTAÇÃO DOS DADOS EM XML:
+<br>
 <br>
 https://help.umbler.com/hc/pt-br/articles/202385865-MySQL-Importando-Exportando-um-banco-de-dados - documentação para exportação de dados do MYSQL<br>
 
