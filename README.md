@@ -1,6 +1,6 @@
 # Desafio_2_Django_API
 
-<i>Desafio Tech (Automação) 2</i>  |  [BD - Arquivo XLSX - para verificação] (https://github.com/renatamoon/Desafio_2_Django_API/blob/workpc/app_usuario_202111271205.xls)<br>
+<i>Desafio Tech 2 (Automação)</i>  |  [BD - Arquivo XLSX - para verificação](https://github.com/renatamoon/Desafio_2_Django_API/blob/workpc/app_usuario_202111271205.xls)<br>
 
 <hr>
 
