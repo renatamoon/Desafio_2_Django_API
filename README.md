@@ -3,8 +3,6 @@
 <i>Desafio Tech 2 (Automação)</i>  |  [BD - Arquivo XLSX - para verificação](https://github.com/renatamoon/Desafio_2_Django_API/blob/workpc/app_usuario_202111271205.xls)<br>
 
 <hr>
-
-<hr>
 <p align="center">
   <a href="#desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
