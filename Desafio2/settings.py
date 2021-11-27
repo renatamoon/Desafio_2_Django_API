@@ -75,28 +75,28 @@ WSGI_APPLICATION = 'Desafio2.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 #-------mysql docker access database homepc
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'HOST': '0.0.0.0',
-#         'PORT': '3306',
-#         'NAME': 'desafio_2',
-#         'USER': 'root',
-#         'PASSWORD': 'my-secret-pw',        
-#     }
-# }
-
-#-------mysql access database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': '0.0.0.0',
         'PORT': '3306',
         'NAME': 'desafio_2',
         'USER': 'root',
-        'PASSWORD': '@Yamato123'    
+        'PASSWORD': 'my-secret-pw',        
     }
 }
+
+#-------mysql access database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#         'NAME': 'desafio_2',
+#         'USER': 'root',
+#         'PASSWORD': '@Yamato123'    
+#     }
+# }
 
 
 # Password validation
